@@ -20,10 +20,10 @@ class MyApp extends StatelessWidget {
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
-              color: Colors.red,
+              color: const Color.fromARGB(255, 131, 160, 204),
               letterSpacing: 2
             ),), //texto personalizado
-            Icon(Icons.star, size:50, color: Colors.amber),
+            Icon(Icons.star, size:50, color: const Color.fromARGB(255, 83, 136, 197)),
             IconButton(onPressed: ()=> print("Icone Pressionado"), 
             icon: Icon(Icons.notifications, size:50)),
           //Imagens
