@@ -67,6 +67,4 @@ class NotaDBHelper {
     final db = await database;
     return await db.delete(TABLE_NAME,where: "id=?",whereArgs: [id]);
   }
-
-
 }
