@@ -15,8 +15,8 @@ class PetController {
     return _dbHelper.getPets();
   }
 
-  Future<Future<List<Pet>>> readPetById(int id) async{
-    return _dbHelper.getPetId(id);
+  Future<Pet?> readPetById(int id) async{
+    return _dbHelper.getPetById(id);
   }
 
   Future<int> deletePet(int id) async{

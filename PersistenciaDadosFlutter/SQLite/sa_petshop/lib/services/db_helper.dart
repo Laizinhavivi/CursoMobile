@@ -8,6 +8,7 @@ class DbHelper {
 
   //transformar esse classe em singleton
   //não permite instanciar outro obj enquento um obj estiver ativo
+  //um objeto por vez
   static final DbHelper _instance = DbHelper._internal();
 
   //Construir o Singleton
