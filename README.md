@@ -34,3 +34,24 @@
             - Linguagem: JavaScript
             - não gera APK nativos
             (RunTime)
+### Curso
+ - Python - Qua/Qui - 19:00h às 22:00 - 30/07
+ - Java - Qua/Quin - 19:00 às 22:00 - 02/09
+
+
+Código para criar o emulador : avdmanager create avd -n MeuEmulador -k "system-images;android-34;google_apis;x86_64" --device "pixel_4" 
+
+API - Transfere as informações por meio de um Json, que é um banco não relacional. 
+Json -> Arquivo em java script, para nomear objetos.
+
+ Tipos de APIS ->
+ API Rest -> CRUD, Faz tudo. Create, Read. Update e Delete.
+ API Get -> Apenas pega as informações  
+
+ ## Preparação da Máquina para Flutter
+- Instalar o Java 
+    - Terminar: Java --version -> jdk-21java
+- Prepara o Ambiente Android ( platforms - emulator - commandLine)
+    - Terminal: sdkmanager --list , adb --version, emulator --version 
+- Preparar o Flutter ( src/flutter) 3.32.8
+  - Terminar: flutter --version
