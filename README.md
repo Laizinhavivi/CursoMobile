@@ -42,7 +42,8 @@
 Código para criar o emulador : avdmanager create avd -n MeuEmulador -k "system-images;android-34;google_apis;x86_64" --device "pixel_4" 
 
 API - Transfere as informações por meio de um Json, que é um banco não relacional. 
-Json -> Arquivo em java script, para nomear objetos.
+Json -> Arquivo de transporte de dados, linguagem java script, para nomear objetos.
+Texto em formato Json -> uma coleção
 
  Tipos de APIS ->
  API Rest -> CRUD, Faz tudo. Create, Read. Update e Delete.
