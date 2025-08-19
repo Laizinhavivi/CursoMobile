@@ -43,7 +43,7 @@ Código para criar o emulador : avdmanager create avd -n MeuEmulador -k "system-
 
 API - Transfere as informações por meio de um Json, que é um banco não relacional. 
 Json -> Arquivo de transporte de dados, linguagem java script, para nomear objetos.
-Texto em formato Json -> uma coleção
+Texto em formato Json -> uma coleção -> chave, valor
 
  Tipos de APIS ->
  API Rest -> CRUD, Faz tudo. Create, Read. Update e Delete.
