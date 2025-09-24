@@ -65,6 +65,18 @@ classDiagram
 
 ```
 
+2. ### Diagrama de Uso
+
+
+
+3. ### Diagrama de Fluxo
+
+
+
 ## Prototipagem
+- Colocar o link do figma
 
 ## Codificação
+
+
+// falta finalizar o cartão e o busca de filmes 

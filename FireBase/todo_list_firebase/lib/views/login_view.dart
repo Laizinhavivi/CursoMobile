@@ -19,7 +19,7 @@ class _LoginViewState extends State<LoginView> {
   //método de login
   void _login() async{
     try {
-      //solicitar a autenticação do usuário
+      //solicitar a autenticação djo usuário
       await _auth.signInWithEmailAndPassword(
         email: _emailField.text.trim(), 
         password: _senhaField.text);
