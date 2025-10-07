@@ -13,23 +13,24 @@ class TmdbService {
 
   //método static => métodos da Classe -> não preciso instanciar um OBJ para executar o método
 
-  //buscar filme na API pelo termo 
+  //buscar filme na API
   static Future<List<Map<String,dynamic>>> searchMovie(String movie) async{
     //converter a String em URL
     final apiURI = Uri.parse("$_baseURL/search/movie?api_key=$_apiKey&query=$movie&language=$_idioma");
-    // http.get (request Http -> get)
-    final response = await http.get(apiURI);
+  //http.get (request Http ->get) 
+  final response = await http.get(apiURI);
 
-    //veerificar a resposta
-    if(response.statusCode == 200){
-      //convert o resultado Json em DArt
-      final data =  json.decode(response.body);
-      //tranforma data (string) em List
-      return List<Map<String,dynamic>>.from(data["results"]);
-    } else{
-      // caso contrário contrário criar uma exception 
-      throw Exception("Falha ao Carregar Filmes da API");
-    }
+  //verificar a resposta
+  if(response.statusCode == 200){
+    //converter resultado json em dart
+    final data = json.decode(response.body);
+    //transforma data em list
+    return List<Map<String, dynamic>>.from(data["results"]);
+  }else{
+    //caso contrario criar uma exception
+    throw Exception("Falho ao Carregar Filmes de API");
   }
-
+  }
 }
+
+//metodos para buscar filmes para o id
